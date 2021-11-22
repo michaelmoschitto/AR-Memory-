@@ -16,6 +16,17 @@
 		A6C9EC392746C7C900ED3397 /* MemoryGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C9EC382746C7C900ED3397 /* MemoryGameTests.swift */; };
 		A6C9EC432746C7C900ED3397 /* MemoryGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C9EC422746C7C900ED3397 /* MemoryGameUITests.swift */; };
 		A6C9EC452746C7C900ED3397 /* MemoryGameUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C9EC442746C7C900ED3397 /* MemoryGameUITestsLaunchTests.swift */; };
+		F9AF8A03274C503A00260AF1 /* 03.usdz in Resources */ = {isa = PBXBuildFile; fileRef = F9AF89FB274C503600260AF1 /* 03.usdz */; };
+		F9AF8A04274C503A00260AF1 /* LunarRover_English.reality in Resources */ = {isa = PBXBuildFile; fileRef = F9AF89FC274C503700260AF1 /* LunarRover_English.reality */; };
+		F9AF8A05274C503A00260AF1 /* hab_en.reality in Resources */ = {isa = PBXBuildFile; fileRef = F9AF89FD274C503700260AF1 /* hab_en.reality */; };
+		F9AF8A06274C503A00260AF1 /* _06.usdz in Resources */ = {isa = PBXBuildFile; fileRef = F9AF89FE274C503800260AF1 /* _06.usdz */; };
+		F9AF8A08274C503A00260AF1 /* 02.usdz in Resources */ = {isa = PBXBuildFile; fileRef = F9AF8A00274C503900260AF1 /* 02.usdz */; };
+		F9AF8A09274C503A00260AF1 /* 04.usdz in Resources */ = {isa = PBXBuildFile; fileRef = F9AF8A01274C503900260AF1 /* 04.usdz */; };
+		F9AF8A0A274C503A00260AF1 /* 01.usdz in Resources */ = {isa = PBXBuildFile; fileRef = F9AF8A02274C503A00260AF1 /* 01.usdz */; };
+		F9AF8A0C274C59AB00260AF1 /* 05.usdz in Resources */ = {isa = PBXBuildFile; fileRef = F9AF8A0B274C59AB00260AF1 /* 05.usdz */; };
+		F9AF8A0F274C59DE00260AF1 /* 07.usdz in Resources */ = {isa = PBXBuildFile; fileRef = F9AF8A0D274C59DD00260AF1 /* 07.usdz */; };
+		F9AF8A10274C59DE00260AF1 /* 08.usdz in Resources */ = {isa = PBXBuildFile; fileRef = F9AF8A0E274C59DE00260AF1 /* 08.usdz */; };
+		F9AF8A12274C5A9500260AF1 /* 06.usdz in Resources */ = {isa = PBXBuildFile; fileRef = F9AF8A11274C5A9500260AF1 /* 06.usdz */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +59,17 @@
 		A6C9EC3E2746C7C900ED3397 /* MemoryGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MemoryGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6C9EC422746C7C900ED3397 /* MemoryGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryGameUITests.swift; sourceTree = "<group>"; };
 		A6C9EC442746C7C900ED3397 /* MemoryGameUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryGameUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F9AF89FB274C503600260AF1 /* 03.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = 03.usdz; sourceTree = "<group>"; };
+		F9AF89FC274C503700260AF1 /* LunarRover_English.reality */ = {isa = PBXFileReference; lastKnownFileType = file; path = LunarRover_English.reality; sourceTree = "<group>"; };
+		F9AF89FD274C503700260AF1 /* hab_en.reality */ = {isa = PBXFileReference; lastKnownFileType = file; path = hab_en.reality; sourceTree = "<group>"; };
+		F9AF89FE274C503800260AF1 /* _06.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = _06.usdz; sourceTree = "<group>"; };
+		F9AF8A00274C503900260AF1 /* 02.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = 02.usdz; sourceTree = "<group>"; };
+		F9AF8A01274C503900260AF1 /* 04.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = 04.usdz; sourceTree = "<group>"; };
+		F9AF8A02274C503A00260AF1 /* 01.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = 01.usdz; sourceTree = "<group>"; };
+		F9AF8A0B274C59AB00260AF1 /* 05.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = 05.usdz; sourceTree = "<group>"; };
+		F9AF8A0D274C59DD00260AF1 /* 07.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = 07.usdz; sourceTree = "<group>"; };
+		F9AF8A0E274C59DE00260AF1 /* 08.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = 08.usdz; sourceTree = "<group>"; };
+		F9AF8A11274C5A9500260AF1 /* 06.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = 06.usdz; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +125,17 @@
 				A6C9EC262746C7C600ED3397 /* Experience.rcproject */,
 				A6C9EC282746C7C600ED3397 /* Main.storyboard */,
 				A6C9EC2B2746C7C900ED3397 /* Assets.xcassets */,
+				F9AF8A02274C503A00260AF1 /* 01.usdz */,
+				F9AF8A00274C503900260AF1 /* 02.usdz */,
+				F9AF89FB274C503600260AF1 /* 03.usdz */,
+				F9AF89FD274C503700260AF1 /* hab_en.reality */,
+				F9AF89FC274C503700260AF1 /* LunarRover_English.reality */,
+				F9AF8A01274C503900260AF1 /* 04.usdz */,
+				F9AF8A0B274C59AB00260AF1 /* 05.usdz */,
+				F9AF89FE274C503800260AF1 /* _06.usdz */,
+				F9AF8A0D274C59DD00260AF1 /* 07.usdz */,
+				F9AF8A0E274C59DE00260AF1 /* 08.usdz */,
+				F9AF8A11274C5A9500260AF1 /* 06.usdz */,
 				A6C9EC2D2746C7C900ED3397 /* LaunchScreen.storyboard */,
 			);
 			path = MemoryGame;
@@ -230,8 +263,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				A6C9EC2F2746C7C900ED3397 /* LaunchScreen.storyboard in Resources */,
+				F9AF8A08274C503A00260AF1 /* 02.usdz in Resources */,
+				F9AF8A04274C503A00260AF1 /* LunarRover_English.reality in Resources */,
+				F9AF8A0A274C503A00260AF1 /* 01.usdz in Resources */,
+				F9AF8A10274C59DE00260AF1 /* 08.usdz in Resources */,
 				A6C9EC2C2746C7C900ED3397 /* Assets.xcassets in Resources */,
+				F9AF8A06274C503A00260AF1 /* _06.usdz in Resources */,
+				F9AF8A0F274C59DE00260AF1 /* 07.usdz in Resources */,
+				F9AF8A05274C503A00260AF1 /* hab_en.reality in Resources */,
+				F9AF8A12274C5A9500260AF1 /* 06.usdz in Resources */,
+				F9AF8A0C274C59AB00260AF1 /* 05.usdz in Resources */,
+				F9AF8A09274C503A00260AF1 /* 04.usdz in Resources */,
 				A6C9EC2A2746C7C600ED3397 /* Main.storyboard in Resources */,
+				F9AF8A03274C503A00260AF1 /* 03.usdz in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
