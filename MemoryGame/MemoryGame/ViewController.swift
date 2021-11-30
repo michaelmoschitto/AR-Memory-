@@ -21,21 +21,27 @@ class ViewController: UIViewController {
     var score: Int = 0
     
     func createText(){
+        
+        let scoreFont = UIFont(name: "HelveticaNeue-Bold", size: 2)!
         let mesh = MeshResource.generateText(
             "Score: \(self.score / 2)",
                     extrusionDepth: 0.1,
-                    font: .systemFont(ofSize: 2),
+                    font: scoreFont,
                     containerFrame: .zero,
                     alignment: .left,
                     lineBreakMode: .byTruncatingTail)
-                
-        let material = SimpleMaterial(color: .blue, isMetallic: false)
+             
+        
+        let fontColor: UIColor = UIColor(red: 24, green: 154, blue: 180, alpha: 1)
+        let material = SimpleMaterial(color: .cyan, isMetallic: false)
         self.scoreEntity = ModelEntity(mesh: mesh, materials: [material])
         self.scoreEntity.scale = SIMD3<Float>(0.03, 0.03, 0.2)
         self.scoreEntity.position = [-0.1, 0.3, 0]
         
         self.anchor.addChild(self.scoreEntity)
     }
+    
+    
     
     func showEndGanme(){
         performSegue(withIdentifier: "segueToEndGame", sender: nil)
@@ -50,7 +56,7 @@ class ViewController: UIViewController {
         self.anchor.removeChild(self.scoreEntity)
         self.createText()
         
-        if self.score >= 8{
+        if (self.score / 2) >= 8{
             showEndGanme()
         }
     }
