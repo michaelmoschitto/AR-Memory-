@@ -16,21 +16,23 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Screen_Shot_2021-11-30_at_11.40.17_AM-removebg-preview 2.png" translatesAutoresizingMaskIntoConstraints="NO" id="Cmg-Yk-fNh">
-                                <rect key="frame" x="72.5" y="314" width="269" height="223"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo2.png" translatesAutoresizingMaskIntoConstraints="NO" id="Cmg-Yk-fNh">
+                                <rect key="frame" x="61" y="243" width="292" height="283"/>
                                 <color key="backgroundColor" red="0.094117647058823528" green="0.60392156862745094" blue="0.70588235294117641" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" systemColor="systemTealColor"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="269" id="qlm-eQ-G4Y"/>
-                                    <constraint firstAttribute="height" constant="223" id="rPo-of-zen"/>
+                                    <constraint firstAttribute="width" constant="292" id="a3T-tm-zQc"/>
+                                    <constraint firstAttribute="height" constant="283" id="zxW-29-6K2"/>
                                 </constraints>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="0.094117647058823528" green="0.60392156862745094" blue="0.70588235294117641" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="Cmg-Yk-fNh" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="270" id="2Wn-7X-keE"/>
-                            <constraint firstItem="Cmg-Yk-fNh" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="eYC-NN-Yxg"/>
+                            <constraint firstItem="Cmg-Yk-fNh" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="TtP-Ni-U8O"/>
+                            <constraint firstItem="Cmg-Yk-fNh" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="199" id="ULm-ng-9fq"/>
+                            <constraint firstItem="Cmg-Yk-fNh" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="61" id="rNT-i4-NK8"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Cmg-Yk-fNh" secondAttribute="bottom" constant="336" id="vCi-2Q-3WU"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -40,7 +42,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Screen_Shot_2021-11-30_at_11.40.17_AM-removebg-preview 2.png" width="266" height="234.5"/>
+        <image name="logo2.png" width="242" height="257.5"/>
         <systemColor name="systemTealColor">
             <color red="0.18823529411764706" green="0.69019607843137254" blue="0.7803921568627451" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>

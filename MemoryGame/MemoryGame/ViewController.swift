@@ -137,7 +137,7 @@ class ViewController: UIViewController {
                 }
                 
                 
-//                objects.shuffle()
+                objects.shuffle()
                 
                 for (index, object) in objects.enumerated() {
                     self.cards[index].addChild(object)
