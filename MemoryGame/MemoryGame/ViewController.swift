@@ -79,7 +79,7 @@ class ViewController: UIViewController {
         arView.scene.addAnchor(anchor)
         
         
-        
+//        generate each of the entities
         for _ in 1...16 {
             let box = MeshResource.generateBox(width: 0.04, height: 0.002, depth: 0.04)
             
@@ -91,6 +91,8 @@ class ViewController: UIViewController {
             cards.append(model)
         }
         
+        
+//        set the position of each card
         for (index, card) in cards.enumerated(){
             let x  = Float(index % 4) - 1.5
             let z = Float(index / 4) - 1.5
@@ -107,6 +109,7 @@ class ViewController: UIViewController {
         anchor.addChild(occlusionBox)
         
         
+//        add each of the itesm to the cards
         var cancellable: AnyCancellable?  = nil
         cancellable = ModelEntity.loadModelAsync(named: "01")
             .append(ModelEntity.loadModelAsync(named: "02"))
@@ -137,6 +140,7 @@ class ViewController: UIViewController {
                 }
                 
                 
+//                make it random
                 objects.shuffle()
                 
                 for (index, object) in objects.enumerated() {
@@ -150,24 +154,12 @@ class ViewController: UIViewController {
                 
             })
         
-        //
-        
-        //
-        
-        //
-        //
-        //                }
-        //
-        //                objects.shuffle()
-        //
-        //
-        //            })
-        
         
         self.createText()
     }
     
     
+//    do the transform
     func flipCard(card: Entity){
         if card.transform.rotation.angle == .pi {
             var flipDownTransform = card.transform
@@ -184,6 +176,7 @@ class ViewController: UIViewController {
     }
     
     
+//    test and see if any of the flipped cards are matches
     func findMatches() -> [String] {
         let dups = Dictionary(grouping: self.flipped, by: {$0.name}).filter { $1.count > 1 }.keys
         
@@ -193,11 +186,12 @@ class ViewController: UIViewController {
     }
     
     
+//    each time a tap occurs on the screen
     @IBAction func onTap(_ sender: UITapGestureRecognizer) {
         let tapLocation = sender.location(in: arView)
         
         
-        
+//        did you tap on an entity
         if let hitResult = arView?.entity(at: tapLocation) {
             print("hit result")
             print(String(hitResult.id))
@@ -216,7 +210,7 @@ class ViewController: UIViewController {
             
             
             if self.flipped.count >= 2{
-                //        this is magic...
+                //        this is nice...
                 let seconds = 2.0
                 
                 DispatchQueue.main.asyncAfter(deadline: .now() + seconds) {
